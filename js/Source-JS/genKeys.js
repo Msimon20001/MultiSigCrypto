@@ -21,7 +21,7 @@ $( ".coinPick" ).click(function() {
 })
 
 
-//Hanldes the mem gen
+//Handles the mem gen
 $("#genphrase").click(function() {
     $( "#pdfOrMem" ).fadeOut()
     setTimeout(function(){  $("#genJustmem").fadeIn() }, 500)
